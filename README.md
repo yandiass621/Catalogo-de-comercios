@@ -1,4 +1,4 @@
-# * Catalógo sobre comércios do meu bairro. * #
+# Catalógo sobre comércios do meu bairro. #
 
 # Acesso ao site:
 

@@ -184,6 +184,16 @@ header a:hover {
 
 /* ======== RESPONSIVIDADE ======== */
 
+@media (min-width: 1200px) {
+    header img {
+        width: 100px;
+    }
+    header {
+        height: 80px;
+        padding: 30px 60px;
+    }
+}
+
 /* --- Tablets (até 900px) --- */
 @media (max-width: 900px) {
     header {
@@ -195,13 +205,9 @@ header a:hover {
     }
 
     header img {
-    width: 80px;
-    margin-left: 10px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
+        width: 60px;
+        margin: 10px 0;
+    }
 
     header ul {
         flex-wrap: wrap;

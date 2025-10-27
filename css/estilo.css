@@ -20,7 +20,7 @@ h1 {
 header {
     background-color: rgba(128, 128, 128, 0.441);
     width: 100%;
-    height: 100px;
+    height: 60px;
     border-radius: 5px;
     position: fixed;
     top: 0;
@@ -65,7 +65,7 @@ header a:hover {
 .conteiner3,
 .conteiner4 {
     display: flex;
-    flex-wrap: wrap; /* <-- Faz os cards quebrarem linha em telas pequenas */
+    flex-wrap: wrap; 
     justify-content: center;
     gap: 20px;
     margin-top: 40px;
@@ -86,7 +86,7 @@ header a:hover {
     transition: transform 0.2s ease;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* mantém p dentro do card mesmo em telas pequenas */
+    justify-content: space-between; 
     box-sizing: border-box;
 }
 
@@ -112,7 +112,7 @@ header a:hover {
 [class^="cards"] p {
     color: gray;
     text-align: center;
-    flex-grow: 1; /* ocupa o espaço disponível dentro do card */
+    flex-grow: 1; 
     margin: 0;
 }
 .sessao {
@@ -135,7 +135,7 @@ header a:hover {
 .icones-card-loc img {
     width: 30px;
     height: 30px;
-    object-fit: contain; /* garante que a imagem não distorça */
+    object-fit: contain; 
 }
 
 .icones-card p,
@@ -154,17 +154,17 @@ header a:hover {
 .icones-card,
 .icones-card-loc {
     display: flex;
-    align-items: center;        /* alinha ícone e texto no centro vertical */
-    justify-content: center;    /* centraliza horizontalmente */
-    gap: 8px;                   /* espaço entre ícone e texto */
-    flex-wrap: wrap;            /* quebra linha se precisar */
+    align-items: center;        
+    justify-content: center;    
+    gap: 8px;                   
+    flex-wrap: wrap;            
     margin-top: 8px;
     
 }
 
 .icones-card p,
 .icones-card-loc p {
-    position: static;           /* remove o deslocamento */
+    position: static;           
     margin: 0;
     font-size: 15px;
     color: #453e3e;
@@ -187,7 +187,8 @@ header a:hover {
 /* --- Tablets (até 900px) --- */
 @media (max-width: 900px) {
     header {
-        height: auto;
+        width: 100%;
+        height: 60px;
         flex-direction: row-reverse;
         text-align: center;
         padding: 10px;
@@ -204,12 +205,12 @@ header a:hover {
     }
 
     [class^="cards"] {
-        width: 45%; /* dois cards por linha */
+        width: 45%; 
     }
 
      .icones-card,
     .icones-card-loc {
-        flex-direction: row; /* ícones lado a lado em tablets */
+        flex-direction: row; 
         justify-content: center;
         gap: 10px;
     }
@@ -226,7 +227,7 @@ header a:hover {
 /* --- Celulares (até 600px) --- */
 @media (max-width: 600px) {
     body {
-        top: 80px; /* reduz espaçamento em mobile */
+        top: 80px; 
     }
 
     header {
@@ -243,11 +244,11 @@ header a:hover {
     }
    
     [class^="cards"] {
-        width: 100%; /* um card por linha */
+        width: 100%; 
     }
 
     [class^="cards"] img {
-        height: 120px; /* imagem menor em telas pequenas */
+        height: 120px; 
     }
 
     [class^="cards"] p {

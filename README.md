@@ -17,10 +17,10 @@ Cada comércio possui informações de:
 ## 🌐 Demonstração visual
 
 ### 💻 Visual  desktop:
-![Preview Desktop](imagens/Ilustração-desktop.png)
+![Preview Desktop](imagens/ilustração-desktop.png)
 
 ### 📱 Visual mobile:
-![Preview Mobile](imagens/ilustração-mobille.png)
+![Preview Mobile](imagens/visual-mobille.png)
 
 
 ---

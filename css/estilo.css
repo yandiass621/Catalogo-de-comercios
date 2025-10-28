@@ -306,5 +306,43 @@ header a:hover {
         top: 120px; 
     }
 }
+/* --- Telas muito pequenas (até 351px) --- */
+@media (max-width: 351px) {
+
+    header {
+        flex-direction: row-reverse; 
+        flex-wrap: wrap;
+        height: auto;          
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header img {
+        width: 60px;            
+        margin: 0 10px;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: row-reverse; 
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 6px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header a {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    body {
+        top: 110px;      
+    }
+}
+
 
 

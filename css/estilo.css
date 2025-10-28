@@ -256,7 +256,7 @@ header a:hover {
     header {
         width: 100%;
         height: 60px;
-        flex-direction: row;
+        flex-direction: row-reverse;
         text-align: center;
         padding: 10px;
     }
@@ -277,7 +277,7 @@ header a:hover {
 
      .icones-card,
     .icones-card-loc {
-        flex-direction: row; 
+        flex-direction: row-reverse; 
         justify-content: center;
         gap: 10px;
     }
@@ -306,7 +306,7 @@ header a:hover {
     }
 
     header ul {
-        flex-direction:row;
+        flex-direction:row-reverse;
         gap: 10px;
     }
    
@@ -348,7 +348,7 @@ header a:hover {
     header {
         height: 80px;              
         padding: 20px 60px;        
-        flex-direction: row;       
+        flex-direction: row-reverse;       
         justify-content: space-between;
     }
 

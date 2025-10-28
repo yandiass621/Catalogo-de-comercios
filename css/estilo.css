@@ -199,7 +199,7 @@ header a:hover {
 /* --- Tablets (até 900px) --- */
 @media (max-width: 900px) {
     header {
-        width: 100%;
+        width: 60px;
         height: 60px;
         flex-direction: row-reverse;
         text-align: center;

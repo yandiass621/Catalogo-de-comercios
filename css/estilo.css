@@ -36,7 +36,6 @@ header {
 
 header img {
     width: 80px;
-    height: 100px;
     margin-left: 10px;
 }
 
@@ -185,22 +184,12 @@ header a:hover {
 
 /* ======== RESPONSIVIDADE ======== */
 
-@media (min-width: 1200px) {
-    header img {
-        width: 70px;
-        height: auto;
-    }
-    header {
-        height: 80px;
-        padding: 30px 60px;
-    }
-}
 
 /* --- Tablets (até 900px) --- */
 @media (max-width: 900px) {
     header {
         width: 100%;
-        height: auto;
+        height: 60px;
         flex-direction: row-reverse;
         text-align: center;
         padding: 10px;
@@ -208,7 +197,6 @@ header a:hover {
 
     header img {
         width: 60px;
-        height: auto;
         margin: 10px 0;
     }
 
@@ -249,7 +237,6 @@ header a:hover {
 
     header img {
         width: 60px;
-        height: auto;
     }
 
     header ul {

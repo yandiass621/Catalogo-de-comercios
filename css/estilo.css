@@ -307,7 +307,7 @@ header a:hover {
     }
 }
 /* --- Telas muito pequenas (até 351px) --- */
-@media (max-width: 350px) {
+@media (max-width: 351px) {
 
     header {
         flex-direction: row-reverse; 

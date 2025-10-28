@@ -307,10 +307,10 @@ header a:hover {
     }
 }
 /* --- Telas muito pequenas (até 351px) --- */
-@media (max-width: 350px) {
+@media (min-width: 350px) {
 
     header {
-        flex-direction: row; 
+        flex-direction: row-reverse; 
         flex-wrap: wrap;
         height: auto;          
         padding: 10px;
@@ -326,7 +326,7 @@ header a:hover {
 
     header ul {
         display: flex;
-        flex-direction: row; 
+        flex-direction: row-reverse; 
         flex-wrap: wrap;
         gap: 8px;
         margin-top: 6px;

@@ -197,6 +197,7 @@ header a:hover {
         height: 90px;
         padding: 20px 100px;
         justify-content: space-between;
+        flex-direction: row-reverse;
     }
 
     header img {

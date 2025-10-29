@@ -278,7 +278,7 @@ header a:hover {
 
      .icones-card,
     .icones-card-loc {
-        flex-direction: row; 
+        flex-direction: column; 
         justify-content: center;
         gap: 10px;
     }

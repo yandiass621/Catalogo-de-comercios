@@ -214,4 +214,6 @@ Cada comércio possui informações de:
 
 # Acesse o site #
 
+* Projeto em andamento *
+
 https://yandiass621.github.io/Catalogo-de-comercios/

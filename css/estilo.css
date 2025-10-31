@@ -78,7 +78,6 @@ header a:hover {
 /* ======== CARDS (estilo base) ======== */
 [class^="cards"] {
     background-color: transparent;
-    border: 2px solid black;
     border-radius: 16px;
     width: 200px;
     padding: 16px;

@@ -17,7 +17,7 @@ Cada comércio possui informações de:
 ## 🌐 Demonstração visual
 
 ### 💻 Visual  desktop:
-![Preview Desktop](imagens/ilustração-desktop.png)
+![Preview Desktop](imagens/visual-desktop.png)
 
 ### 📱 Visual mobile:
 ![Preview Mobile](imagens/visual-mobille.png)

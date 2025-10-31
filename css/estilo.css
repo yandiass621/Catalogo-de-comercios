@@ -78,7 +78,6 @@ header a:hover {
 /* ======== CARDS (estilo base) ======== */
 [class^="cards"] {
     background-color: transparent;
-    box-shadow: 5px 5px 5px 2px black;
     border-radius: 16px;
     width: 200px;
     padding: 16px;
@@ -217,7 +216,7 @@ header a:hover {
     [class^="cards"] {
         width: 250px;
         padding: 20px;
-        box-shadow: 5px 5px 5px 2px black;
+        
     }
 
     [class^="cards"] img {
@@ -274,7 +273,7 @@ header a:hover {
 
     [class^="cards"] {
         width: 45%;
-        box-shadow: 5px 5px 5px 2px black;
+        
     }
 
      .icones-card,
@@ -314,7 +313,7 @@ header a:hover {
    
     [class^="cards"] {
         width: 100%;
-        box-shadow: 5px 5px 5px 2px black;
+        
     }
 
     [class^="cards"] img {
